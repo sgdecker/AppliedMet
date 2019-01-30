@@ -1,0 +1,23 @@
+ name: unidata
+ channels:
+   - conda-forge
+ dependencies:
+   - python=3
+   - numpy
+   - matplotlib=2
+   - cartopy=0.16
+   - jupyter
+   - jupyterlab
+   - netcdf4
+   - owslib
+   - metpy
+   - pint
+   - shapely
+   - siphon
+   - xarray
+   - pip
+   - ffmpeg
+   - pytest
+   - mplcursors
+   - pip:
+     - python-awips
